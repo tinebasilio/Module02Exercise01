@@ -16,7 +16,8 @@
         
         <!--Button bound to LoadEmployeeDataCommand-->
         <Button Text="Load Manager Data"
-                Command="{Binding LoadEmployeeDataCommand}"/>
+                Command="{Binding LoadEmployeeDataCommand}"
+                BackgroundColor="Maroon"/>
 
         <Label 
             Text="List of Employees"

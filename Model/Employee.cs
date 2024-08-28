@@ -13,9 +13,8 @@ namespace Module02Exercise01.Model
         public string FullName => $"{FirstName} {LastName}";
         public string Position { get; set; }
         public string Department { get; set; }
-        public string isActive { get; set; }
+        public bool isActive { get; set; }
         public string Manager { get; set; }
-
         public string EmployeeDetails => $"{Position} ({Department}), {isActive}";
 
 
